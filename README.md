@@ -86,6 +86,17 @@ CORS_ORIGIN=http://localhost:3000
 
 ### 👥 Users Endpoints
 
+|  Method   | Endpoint                 | Description                                         | Access        |
+| :-------: | :----------------------- | :-------------------------------------------------- | :------------ |
+| **POST**  | `/users`                 | Register a new user                                 | Public        |
+| **POST**  | `/users/login`           | Log in and receive JWT                              | Public        |
+|  **GET**  | `/users`                 | List all users with pagination, filters, and search | Admin         |
+|  **GET**  | `/users/:id`             | Get details of a single user                        | Self or Admin |
+| **PATCH** | `/users/:id`             | Update user profile                                 | Self or Admin |
+| **PATCH** | `/users/:id/block`       | Block or unblock a user                             | Admin         |
+| **POST**  | `/users/forgot-password` | Send a reset link to user’s email                   | Public        |
+| **POST**  | `/users/reset-password`  | Complete reset using token                          | Public        |
+
 #### **POST** `/users`
 
 **Access:** Public  
@@ -184,6 +195,18 @@ Response: Updated user object.
 ---
 
 ### 💳 Cards Endpoints
+
+|   Method   | Endpoint                   | Description                          | Access            |
+| :--------: | :------------------------- | :----------------------------------- | :---------------- |
+|  **POST**  | `/cards`                   | Create a new business card           | Business or Admin |
+|  **GET**   | `/cards`                   | List all cards                       | Public            |
+|  **GET**   | `/cards/:id`               | Get a single card by ID              | Public            |
+|  **GET**   | `/cards/by-biz/:bizNumber` | Get card by business number          | Public            |
+|  **GET**   | `/cards/my-cards`          | Get all cards owned by current user  | Authenticated     |
+| **PATCH**  | `/cards/:id`               | Update card details                  | Owner or Admin    |
+| **DELETE** | `/cards/:id`               | Delete a card                        | Owner or Admin    |
+| **PATCH**  | `/cards/:id/like`          | Like or unlike a card                | Authenticated     |
+| **PATCH**  | `/cards/:id/biz-number`    | Assign a new 6-digit business number | Admin             |
 
 #### **POST** `/cards`
 
