@@ -1,0 +1,17 @@
+[2025-10-08T17:01:18.607Z] | Status: 409 | URL: /users | Method: POST | Message: Conflict
+[2025-10-08T17:02:39.228Z] | Status: 409 | URL: /users | Method: POST | Message: Conflict
+[2025-10-08T17:03:09.299Z] | Status: 400 | URL: /users | Method: POST | Message: Bad Request
+[2025-10-08T17:03:23.209Z] | Status: 400 | URL: /users | Method: POST | Message: Bad Request
+[2025-10-08T17:04:02.437Z] | Status: 409 | URL: /users | Method: POST | Message: Conflict
+[2025-10-08T17:04:47.731Z] | Status: 400 | URL: /users | Method: POST | Message: Bad Request
+[2025-10-08T17:05:05.584Z] | Status: 400 | URL: /users | Method: POST | Message: Bad Request
+[2025-10-08T17:05:19.526Z] | Status: 400 | URL: /users | Method: POST | Message: Bad Request
+[2025-10-08T17:09:26.413Z] | Status: 500 | URL: /users/forgot-password | Method: POST | Message: Internal Server Error
+[2025-10-08T17:18:22.748Z] | Status: 500 | URL: /users/forgot-password | Method: POST | Message: Internal Server Error
+[2025-10-08T18:25:47.227Z] | Status: 400 | URL: /users/forgot-password | Method: POST | Message: Bad Request
+[2025-10-08T18:25:54.856Z] | Status: 400 | URL: /users/forgot-password | Method: POST | Message: Bad Request
+[2025-10-08T18:26:38.835Z] | Status: 400 | URL: /users/reset-password | Method: POST | Message: Bad Request
+[2025-10-08T18:26:56.531Z] | Status: 400 | URL: /users/reset-password | Method: POST | Message: Bad Request
+[2025-10-08T18:28:19.208Z] | Status: 400 | URL: /users/reset-password | Method: POST | Message: Bad Request
+[2025-10-08T18:29:09.097Z] | Status: 400 | URL: /users/reset-password | Method: POST | Message: Bad Request
+[2025-10-08T18:29:19.296Z] | Status: 400 | URL: /users/reset-password | Method: POST | Message: Bad Request
