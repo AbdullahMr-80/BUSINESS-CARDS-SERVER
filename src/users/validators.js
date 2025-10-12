@@ -1,96 +1,39 @@
 import Joi from "joi";
-import { EMAIL_RE, PASSWORD_RE, PHONE_IL_RE, URL_RE } from "../common/regex.js";
-
-const nameSchema = Joi.object({
-  first: Joi.string().trim().min(2).max(50).required(),
-  middle: Joi.string().trim().min(1).max(50).optional().empty(""),
-  last: Joi.string().trim().min(2).max(50).required(),
-}).required();
-
-const imageSchema = Joi.object({
-  url: Joi.string()
-    .trim()
-    .pattern(URL_RE)
-    .message("image.url must be a valid URL")
-    .required(),
-  alt: Joi.string().trim().min(2).max(100).required(),
-}).required();
-
-const addressSchema = Joi.object({
-  state: Joi.string().trim().min(2).max(100).optional().empty(""),
-  country: Joi.string().trim().min(2).max(100).required(),
-  city: Joi.string().trim().min(2).max(100).required(),
-  street: Joi.string().trim().min(2).max(120).required(),
-  houseNumber: Joi.number().integer().min(1).max(99999).required(),
-  zip: Joi.number().integer().min(0).max(9999999).required(),
-}).required();
-
-const emailField = Joi.string()
-  .trim()
-  .pattern(EMAIL_RE)
-  .message("email must be a valid address")
-  .required();
-
-const phoneField = Joi.string()
-  .trim()
-  .pattern(PHONE_IL_RE)
-  .message("phone must be a valid Israeli phone (e.g., 03-1234567)")
-  .required();
-
-const passwordField = Joi.string()
-  .pattern(PASSWORD_RE)
-  .message(
-    "password must be 8–64 chars and include uppercase, lowercase, digit, and special character"
-  )
-  .required();
+import { EMAIL_RE, PASSWORD_RE } from "../common/regex.js";
+import {
+  addressSchemaJoi,
+  emailFieldJoi,
+  imageSchemaJoi,
+  nameSchemaJoi,
+  partialAddressSchemajoi,
+  partialImageSchemaJoi,
+  partialPhoneFieldJoi,
+  passwordFieldJoi,
+  phoneFieldJoi,
+} from "../common/validators.js";
 
 //1) Register
 export const registerUserSchema = Joi.object({
-  name: nameSchema,
-  phone: phoneField,
-  email: emailField,
-  password: passwordField,
-  image: imageSchema,
-  address: addressSchema,
+  name: nameSchemaJoi,
+  phone: phoneFieldJoi,
+  email: emailFieldJoi,
+  password: passwordFieldJoi,
+  image: imageSchemaJoi,
+  address: addressSchemaJoi,
   isBusiness: Joi.boolean().default(false),
 });
 
 //2) Login
 export const loginSchema = Joi.object({
-  email: emailField,
+  email: emailFieldJoi,
   password: Joi.string().required(),
 });
 
-//3) Update profile (self)
-const partialImageSchema = Joi.object({
-  url: Joi.string()
-    .trim()
-    .pattern(URL_RE)
-    .message("image.url must be a valid URL")
-    .optional()
-    .empty(""),
-  alt: Joi.string().trim().min(2).max(256).optional().empty(""),
-});
-
-const partialAddressSchema = Joi.object({
-  country: Joi.string().trim().min(2).max(256).optional().empty(""),
-  city: Joi.string().trim().min(2).max(256).optional().empty(""),
-  street: Joi.string().trim().min(2).max(256).optional().empty(""),
-  houseNumber: Joi.number().integer().min(1).max(99999).optional(),
-  zip: Joi.number().integer().min(0).max(9999999).optional(),
-  state: Joi.string().trim().min(1).max(256).optional().empty(""),
-});
-
 export const updateUserSchema = Joi.object({
-  name: nameSchema.optional(),
-  phone: Joi.string()
-    .trim()
-    .pattern(PHONE_IL_RE)
-    .message("phone must be a valid Israeli phone (e.g., 03-1234567)")
-    .optional()
-    .empty(""),
-  image: partialImageSchema.optional(),
-  address: partialAddressSchema.optional(),
+  name: nameSchemaJoi.optional(),
+  phone: partialPhoneFieldJoi,
+  image: partialImageSchemaJoi.optional(),
+  address: partialAddressSchemajoi.optional(),
   isBusiness: Joi.boolean().optional(),
 }).min(1);
 
@@ -117,7 +60,7 @@ export const changePasswordSchema = Joi.object({
 
 // 6) Forgot password
 export const forgotPasswordSchema = Joi.object({
-  email: emailField,
+  email: emailFieldJoi,
 });
 
 // 7) Reset password (via emailed token)

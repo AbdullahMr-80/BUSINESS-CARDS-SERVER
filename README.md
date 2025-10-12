@@ -249,6 +249,17 @@ Response: Array of public card objects.
 
 ---
 
+#### **PATCH** `/cards/:id` Update Card (keep existing on missing/empty)
+
+**Access:** Owner or Admin
+**Description:** Updates only the fields you provide.
+
+- Missing fields are left unchanged.
+- Fields sent as empty strings ("") are ignored (treated as missing) — existing DB values are kept.
+- Nested objects (e.g., image, address) are updated by field, not replaced.
+
+---
+
 #### **PATCH** `/cards/:id/like`
 
 **Access:** Authenticated Users  

@@ -26,10 +26,6 @@ import {
 
 const router = Router();
 
-router.get("/", validateQuery(listCardsQuerySchema), asyncHandler(listCards));
-router.get("/:id", asyncHandler(getCardById));
-router.get("/by-biz/:bizNumber", asyncHandler(getCardByBiz));
-
 // create
 router.post(
   "/",
@@ -39,7 +35,10 @@ router.post(
   asyncHandler(createCard)
 );
 
+router.get("/", validateQuery(listCardsQuerySchema), asyncHandler(listCards));
 router.get("/my-cards", requireAuth, asyncHandler(listMyCards));
+router.get("/by-biz/:bizNumber", asyncHandler(getCardByBiz));
+router.get("/:id", asyncHandler(getCardById));
 
 // update
 router.patch(

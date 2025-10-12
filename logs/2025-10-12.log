@@ -1,0 +1,140 @@
+[2025-10-12T15:22:31.181Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:22:42.501Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:02.290Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:13.640Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:22.613Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:31.472Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:41.454Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:23:52.490Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:24:04.389Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-12T15:24:43.733Z] | Status: 403 | URL: /cards | Method: POST | Message: Forbidden
+[2025-10-12T15:27:33.292Z] | Status: 404 | URL: /cards/68e9469231dc21de22449c57 | Method: GET | Message: Not Found
+[2025-10-12T15:31:08.414Z] | Status: 404 | URL: /cards/by-biz/382356 | Method: GET | Message: Not Found
+[2025-10-12T15:35:28.841Z] | Status: 404 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Not Found
+[2025-10-12T15:36:06.905Z] | Status: 403 | URL: /cards/68ebc757932869359bfd393d | Method: PATCH | Message: Forbidden
+[2025-10-12T15:40:39.742Z] | Status: 400 | URL: /cards/68ebc757932869359bfd393d | Method: PATCH | Message: Bad Request
+[2025-10-12T15:44:33.228Z] | Status: 400 | URL: /cards/68ebc757932869359bfd393d | Method: PATCH | Message: Bad Request
+[2025-10-12T15:52:47.383Z] | Status: 403 | URL: /cards/68ebc8ad932869359bfd394a | Method: DELETE | Message: Forbidden
+[2025-10-12T15:56:40.986Z] | Status: 403 | URL: /cards/68ebcfa2d03b632b72ac4f32 | Method: DELETE | Message: Forbidden
+[2025-10-12T15:59:24.867Z] | Status: 404 | URL: /cards/68ebc757932869359bfd393f/like | Method: POST | Message: Not Found
+[2025-10-12T16:00:46.433Z] | Status: 404 | URL: /cards/68ebc757932869359bfd93f/like | Method: POST | Message: Not Found
+[2025-10-12T16:01:15.867Z] | Status: 404 | URL: /cards/68ebc757932869359bfd3sdsd93f/like | Method: POST | Message: Not Found
+[2025-10-12T16:03:14.641Z] | Status: 404 | URL: /cards/68ebc75793286959bfd393f/like | Method: POST | Message: Not Found
+[2025-10-12T16:11:47.729Z] | Status: 404 | URL: /cards/68ebc757932869359bfd393f/like | Method: POST | Message: Not Found
+[2025-10-12T16:12:18.415Z] | Status: 404 | URL: /cards/68ebc757932869359bfd393f/like | Method: POST | Message: Not Found
+[2025-10-12T16:13:01.411Z] | Status: 404 | URL: /cards/68ebc757932869359bfd393f/like | Method: POST | Message: Not Found
+[2025-10-12T16:13:31.812Z] | Status: 401 | URL: /cards/68ebc757932869359bfd393f/like | Method: PATCH | Message: Unauthorized
+[2025-10-12T16:14:26.462Z] | Status: 401 | URL: /cards/68ebc757932869359bfd393f/like | Method: PATCH | Message: Unauthorized
+[2025-10-12T16:14:48.775Z] | Status: 401 | URL: /cards/68ebc757932869359bfd393f/like | Method: PATCH | Message: Unauthorized
+[2025-10-12T16:15:38.740Z] | Status: 500 | URL: /cards/68ebc75793269359bfd393f/like | Method: PATCH | Message: Internal Server Error
+[2025-10-12T17:56:01.139Z] | Status: 403 | URL: /cards/68ebcfa2d03b632b72ac4f32/biz-number | Method: PATCH | Message: Forbidden
+[2025-10-12T17:56:58.199Z] | Status: 403 | URL: /cards/68ebcfa2d03b632b72ac4f32/biz-number | Method: PATCH | Message: Forbidden
+[2025-10-12T17:57:59.648Z] | Status: 401 | URL: /cards/68ebcfa2d03b632b72ac4f32/biz-number | Method: PATCH | Message: Unauthorized
+[2025-10-12T18:00:06.107Z] | Status: 409 | URL: /cards/68ebcfa2d03b632b72ac4f32/biz-number | Method: PATCH | Message: Conflict
+[2025-10-12T18:00:21.447Z] | Status: 400 | URL: /cards/68ebcfa2d03b632b72ac4f32/biz-number | Method: PATCH | Message: Bad Request
+[2025-10-12T18:05:52.947Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:05:57.880Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:10:12.620Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:10:17.037Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:10:21.699Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:13:25.818Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:13:29.148Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:13:31.980Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:13:34.756Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:23:30.962Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:23:34.037Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:23:36.961Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:23:46.467Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:25:24.561Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:26:38.292Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:26:53.882Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:29:13.442Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:29:24.241Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:29:25.797Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:29:27.683Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:30:45.356Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:30:47.038Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:30:56.706Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:31:00.264Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:31:01.650Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:31:03.056Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:31:30.699Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:32:24.234Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:32:26.150Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:32:27.739Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:32:29.321Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:32:31.300Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:11.439Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:13.275Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:14.888Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:17.114Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:19.163Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:54.715Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:56.651Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:33:58.153Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:26.931Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:30.048Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:36.524Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:41.359Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:44.426Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:45.831Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:34:58.001Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:35:40.441Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:35:42.577Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:35:49.274Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:35:54.634Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:35:56.247Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:36:17.733Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:38:17.570Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:38:19.214Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:38:46.207Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:38:56.162Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:38:58.183Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:39:38.083Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:40:41.399Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:40:47.059Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:41:05.781Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:41:24.674Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:41:27.402Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:41:29.514Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T18:41:34.589Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:41:39.950Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T18:41:52.939Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:08:46.963Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:11:28.227Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:13:12.501Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:13:15.806Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:13:31.682Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:13:33.179Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:13:53.779Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:15:57.275Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:16:14.337Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:16:19.684Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:16:26.811Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:16:27.995Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:17:46.466Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:18:11.908Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:18:53.396Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:27:39.803Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:27:47.049Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:27:48.554Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:28:29.930Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:28:39.932Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:34:52.774Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:37:38.627Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:38:03.049Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:38:08.668Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:38:21.055Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:38:22.961Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:38:24.078Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:39:27.054Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:39:58.432Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:40:05.073Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:42:02.155Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:42:23.691Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:42:40.089Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:43:12.602Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden
+[2025-10-12T19:44:18.529Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:44:20.817Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:44:23.855Z] | Status: 401 | URL: /users/login | Method: POST | Message: Unauthorized
+[2025-10-12T19:44:40.180Z] | Status: 403 | URL: /users/login | Method: POST | Message: Forbidden

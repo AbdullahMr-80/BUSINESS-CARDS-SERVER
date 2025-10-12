@@ -1,0 +1,49 @@
+[2025-10-11T17:32:42.015Z] | Status: 404 | URL: /cards/68e6959d70967a91b782f211 | Method: GET | Message: Not Found
+[2025-10-11T17:34:11.970Z] | Status: 403 | URL: /cards/68e9469231dc21de22449c5c | Method: PATCH | Message: Forbidden
+[2025-10-11T17:38:51.283Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T17:39:17.921Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T17:39:34.296Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T17:39:49.914Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T17:43:58.401Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T17:44:16.874Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T17:44:53.144Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T17:45:12.187Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T18:50:27.733Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T18:52:04.390Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T18:53:01.743Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T18:53:54.792Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T18:54:11.801Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T20:59:27.483Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:01:12.732Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:01:38.886Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:01:41.243Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:02:43.142Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:04:48.801Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:10:56.020Z] | Status: 400 | URL: /cards | Method: POST | Message: Bad Request
+[2025-10-11T21:17:19.568Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:18:53.363Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:22:27.640Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:22:35.539Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:22:43.106Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:25:45.124Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:26:20.954Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:26:47.768Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:26:57.191Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:26:58.729Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:27:16.905Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:27:37.469Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:27:43.595Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:30:20.175Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:30:41.248Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:31:12.719Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:31:58.516Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:47:32.184Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:47:44.829Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:48:00.426Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:48:17.582Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:48:27.394Z] | Status: 400 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Bad Request
+[2025-10-11T21:56:30.885Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:56:44.074Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:57:26.131Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:58:45.541Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error
+[2025-10-11T21:58:52.928Z] | Status: 500 | URL: /cards/68e98639507f58aa7483aef7 | Method: PATCH | Message: Internal Server Error

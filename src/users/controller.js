@@ -14,6 +14,7 @@ import { resetPassword as resetPasswordSvc } from "./services/resetPassword.js";
 import { User } from "./models/user.js";
 import { listUsers } from "./services/listUsers.js";
 import { clearLock, isLocked, lockUser } from "./helpers/lock.js";
+import { minutesToHM } from "./helpers/minutesToHM.js";
 
 export function toPublic(u) {
   const {
@@ -80,7 +81,7 @@ export const login = async (req, res) => {
       Math.ceil((user.lockUntil.getTime() - Date.now()) / (60 * 1000))
     );
     throw Object.assign(
-      new Error(`Account locked. Try again in ~${minutesLeft} minutes.`),
+      new Error(`Account locked. Try again in ${minutesToHM(minutesLeft)}`),
       { status: 403 }
     );
   }

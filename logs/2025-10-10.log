@@ -9,3 +9,15 @@
 [2025-10-10T20:05:40.567Z] | Status: 404 | URL: /cards68e9469231dc21de22449c57 | Method: POST | Message: Not Found
 [2025-10-10T20:13:45.862Z] | Status: 404 | URL: /cards68e9469231dc21de22449c57 | Method: GET | Message: Not Found
 [2025-10-10T20:13:54.286Z] | Status: 404 | URL: /cards68e9469231dc21de22449c57 | Method: GET | Message: Not Found
+[2025-10-10T22:14:58.343Z] | Status: 403 | URL: /cards | Method: POST | Message: Forbidden
+[2025-10-10T22:22:23.790Z] | Status: 404 | URL: /cards/by-biz/3656975 | Method: POST | Message: Not Found
+[2025-10-10T22:22:51.085Z] | Status: 404 | URL: /cards/by-biz/36569 | Method: POST | Message: Not Found
+[2025-10-10T22:22:57.885Z] | Status: 404 | URL: /cards/by-biz/365697 | Method: POST | Message: Not Found
+[2025-10-10T22:23:49.176Z] | Status: 404 | URL: /cards/by-biz/3823567 | Method: GET | Message: Not Found
+[2025-10-10T22:23:57.119Z] | Status: 404 | URL: /cards/by-biz/3823 | Method: GET | Message: Not Found
+[2025-10-10T22:26:38.006Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
+[2025-10-10T22:27:08.522Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
+[2025-10-10T22:28:33.240Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
+[2025-10-10T22:29:23.593Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
+[2025-10-10T22:29:26.562Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
+[2025-10-10T22:29:28.266Z] | Status: 500 | URL: /cards/my-cards | Method: GET | Message: Internal Server Error
