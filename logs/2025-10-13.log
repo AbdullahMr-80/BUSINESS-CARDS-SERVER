@@ -1,0 +1,31 @@
+[2025-10-13T07:28:17.346Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:28:17.348Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:28:18.428Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:28:18.430Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:28:20.459Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:42:30.664Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:42:30.667Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:42:31.744Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:42:31.745Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:42:33.749Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:45:52.406Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:45:52.409Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:45:53.434Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:45:53.436Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:45:55.442Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:47:35.378Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:47:35.381Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:47:36.405Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:47:36.407Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:47:38.410Z] | Status: 500 | URL: /users/users/68c2d131ae1548683f223a9e | Method: OPTIONS | Message: Internal Server Error
+[2025-10-13T07:51:43.768Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:51:43.776Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: GET | Message: Internal Server Error
+[2025-10-13T07:51:44.792Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:51:44.794Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: GET | Message: Internal Server Error
+[2025-10-13T07:51:46.799Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:52:01.472Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:52:01.480Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: GET | Message: Internal Server Error
+[2025-10-13T07:52:02.495Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:52:02.497Z] | Status: 500 | URL: /cards/cards?page=1&limit=12 | Method: GET | Message: Internal Server Error
+[2025-10-13T07:52:04.501Z] | Status: 404 | URL: /users/users/68c2d131ae1548683f223a9e | Method: GET | Message: Not Found
+[2025-10-13T07:52:51.990Z] | Status: 401 | URL: /users/68c2d131ae1548683f223a9e | Method: GET | Message: Unauthorized

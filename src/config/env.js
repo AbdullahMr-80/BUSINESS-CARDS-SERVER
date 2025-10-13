@@ -37,7 +37,7 @@ export const appConfig = {
   port: Number(readstring("PORT")),
   mongoUri: readstring("MONGODB_URI"),
   jwtSecert: readstring("JWT_SECRET"),
-  corsOrigins: parseCsv(process.env.CORS_ORIGIN),
+  corsOrigins: parseCsv(process.env.CORS_ORIGINS),
   smtp: {
     host: process.env.SMTP_HOST,
     port: readNumber("SMTP_PORT"),
